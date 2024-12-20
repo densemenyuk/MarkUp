@@ -1,5 +1,6 @@
 @import url("header.css");
-@import url("mainContent.css");
+@import url("./mainContent/mainContent.css");
+@import url("./mainContent/sideProfile.css");
 
 body {
   margin: 0;

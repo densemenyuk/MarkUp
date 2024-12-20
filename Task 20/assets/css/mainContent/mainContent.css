@@ -1,0 +1,9 @@
+.main__content__block {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.main__content {
+  width: 1280px;
+}
