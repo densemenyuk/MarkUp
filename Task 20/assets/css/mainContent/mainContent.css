@@ -6,4 +6,7 @@
 
 .main__content {
   width: 1280px;
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 25px;
 }
