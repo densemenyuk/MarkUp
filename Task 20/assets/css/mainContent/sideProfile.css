@@ -56,6 +56,10 @@
   justify-content: center;
 }
 
+.general__side__profile__button:hover {
+  cursor: pointer;
+}
+
 .background-button {
   background: #fff;
   color: #5eb5e6;
@@ -66,4 +70,58 @@
   flex-direction: column;
   gap: 10px;
   margin-top: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  width: 100%;
+  height: 75px;
+}
+
+.stats__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .stats__info-border {
+  border-right: 1px solid #f1f1f1;
+} */
+
+.stats__number {
+  font-weight: 500;
+}
+
+.stats__overview {
+  color: #abafb4;
+}
+
+.side__profile__links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.links {
+  font-size: 15px;
+  color: #abafb4;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.side__profile__download {
+  display: flex;
+  align-items: center;
+  color: #abafb4;
+  font-size: 14px;
+  border-top: 1px solid #f1f1f1;
+  width: 100%;
+  height: 50px;
 }
