@@ -153,3 +153,13 @@
   color: #adadb5;
   font-size: 14px;
 }
+
+.second__block__avatar {
+  border-radius: 50%;
+}
+
+.second__block__button {
+  border: none;
+  outline: none;
+  background: none;
+}
