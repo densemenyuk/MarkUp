@@ -131,6 +131,13 @@
   gap: 20px;
 }
 
+/* Второй блок */
+
+.side__right__sector__second__block {
+  display: flex;
+  flex-direction: column;
+}
+
 .people__info__avatar {
   width: 45px;
   border-radius: 50%;
@@ -155,6 +162,7 @@
 }
 
 .second__block__avatar {
+  width: 115px;
   border-radius: 50%;
 }
 
@@ -162,4 +170,32 @@
   border: none;
   outline: none;
   background: none;
+}
+
+.second__block__button:hover {
+  cursor: pointer;
+}
+
+.second__block__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.second__block__main__info {
+  margin-top: 30px;
+  margin-left: -25px;
+  gap: 5px;
+}
+
+.second__block__name {
+  margin: 0;
+  color: #333333;
+}
+
+.second__block__company {
+  margin: 0;
+  color: #aaabb5;
+  font-size: 14px;
 }
