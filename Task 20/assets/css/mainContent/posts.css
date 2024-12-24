@@ -2,4 +2,31 @@
   background-color: #fff;
   height: 380px;
   width: auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+}
+
+.posts__list__header {
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.posts__list__header__head {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.posts__list__header__move {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  border: 1px solid #0501ef;
+  border-radius: 50%;
+  width: 30px;
 }
