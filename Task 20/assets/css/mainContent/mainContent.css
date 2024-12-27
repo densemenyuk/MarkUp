@@ -21,7 +21,7 @@
 }
 
 .experience {
-  width: 720px;
+  /* width: 720px; */
   display: flex;
   justify-content: center;
 }
