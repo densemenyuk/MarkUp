@@ -16,6 +16,14 @@
 
 .experience__block {
   background: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.experience {
+  width: 720px;
+  display: flex;
+  justify-content: center;
 }
 
 .experience__block__header__head {
@@ -28,4 +36,29 @@
   display: flex;
   align-items: center;
   padding-left: 30px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.icon__header {
+  display: flex;
+  gap: 7px;
+}
+
+.icon__header__header {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.icon__header__icon {
+  /* margin-left: -25px; */
+}
+
+.summary__of__the__state {
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+}
+.experience__block__text {
+  line-height: 1.5;
 }
