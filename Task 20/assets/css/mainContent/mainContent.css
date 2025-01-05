@@ -24,6 +24,7 @@
   /* width: 720px; */
   display: flex;
   justify-content: center;
+  margin-left: 30px;
 }
 
 .experience__block__header__head {
@@ -41,16 +42,13 @@
 
 .icon__header {
   display: flex;
-  gap: 7px;
+  gap: 10px;
 }
 
 .icon__header__header {
   font-weight: 400;
   font-size: 20px;
-}
-
-.icon__header__icon {
-  /* margin-left: -25px; */
+  margin: 0;
 }
 
 .summary__of__the__state {
@@ -61,4 +59,5 @@
 }
 .experience__block__text {
   line-height: 1.5;
+  margin: 10px 15px 0 35px;
 }
