@@ -85,3 +85,19 @@
 .microsoft__logo {
   width: 150px;
 }
+
+.icon__header__icon__two {
+  width: 24px;
+  height: 27px;
+}
+
+
+
+.first__experience {
+  display: flex;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+}

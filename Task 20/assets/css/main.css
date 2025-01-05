@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   background: #f6f8f9;
-  height: 100vh;
+  /* height: 100vh; */
 
   display: flex;
   /* justify-content: center; */
