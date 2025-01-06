@@ -91,13 +91,62 @@
   height: 27px;
 }
 
-
-
 .first__experience {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .test {
   display: flex;
   flex-direction: column;
+
+}
+
+.company__text {
+  margin: 0;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: 10px;
+}
+
+.text-mod {
+  color: #aeaaaa;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+/* .text-mod::before {
+  border: 1px solid  gray;
+  border-radius: 50;
+  width: 5px;
+} */
+
+.text-mod__two {
+  color: #69b0f0;
+}
+
+
+.second__company{
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.youtube__logo {
+  width: 150px;
+}
+
+.logo__job__images {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
