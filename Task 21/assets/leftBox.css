@@ -29,3 +29,22 @@
   left: 442px;
   width: 420px;
 }
+
+.active,
+.default {
+  border: none;
+  outline: none;
+  background: none;
+
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+
+.default {
+  background: #f0a6c0;
+}
+
+.active {
+  background: #fff;
+}
