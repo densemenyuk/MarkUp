@@ -1,5 +1,6 @@
 @import url(./reset.css);
 @import url(./leftBox.css);
+@import url(./right__box.css);
 
 .container {
   background: #4d26e6;
