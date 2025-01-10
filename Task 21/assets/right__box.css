@@ -53,3 +53,13 @@
   width: 100%;
   justify-content: space-around;
 }
+
+.amount {
+  display: flex;
+  gap: 10px;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+}
