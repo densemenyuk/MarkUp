@@ -40,6 +40,7 @@
 .shoes__logo {
   position: absolute;
   width: 420px;
+  height: 365px;
   top: -373px;
   left: -304px;
 }
@@ -63,8 +64,18 @@
   background: #f0a6c0;
 }
 
+.default:hover {
+  cursor: pointer;
+  background: #fff;
+}
+
 .active {
   background: #fff;
+}
+
+.active:hover {
+  cursor: pointer;
+  background-color: #fff;
 }
 
 /* .point {
@@ -84,20 +95,33 @@
 .plus__image__one {
   width: 30px;
   position: absolute;
-  top: -315px;
+  top: -325px;
   left: -200px;
 }
 .plus__image__two {
   width: 30px;
   position: absolute;
-  top: -190px;
+  top: -205px;
   left: -130px;
 }
 .plus__image__three {
   width: 30px;
   position: absolute;
-  top: -140px;
+  top: -155px;
   left: 30px;
+}
+
+.plus__image__one:hover {
+  cursor: pointer;
+  fill: #662acc;
+}
+.plus__image__two:hover {
+  cursor: pointer;
+  fill: #662acc;
+}
+.plus__image__three:hover {
+  cursor: pointer;
+  fill: #662acc;
 }
 
 .pluses {
