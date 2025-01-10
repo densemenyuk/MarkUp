@@ -79,16 +79,22 @@
   text-transform: uppercase;
   font-size: 21px;
   color: #aaaaaa;
-  padding: 0;
+  padding: 0px;
 }
 
 .size__item__button:hover {
   cursor: pointer;
 }
 
-.size__item__button:focus {
+.size__item__button:active {
+  color: black;
+  outline: 2px solid black;
   border-radius: 50%;
-  border: 2px solid #b25576;
+}
+
+.size__item__button:focus {
+  border-radius: 15%;
+  outline: 2px solid #b25576;
 }
 
 .amount {
