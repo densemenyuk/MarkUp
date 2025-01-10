@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Loop 2 - Challenge</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!--
+    Ah, it smells like a new challenge!
+
+    This time we build a concept of some job search website.
+    It's more about small details this time and if you haven't yet tried splitting
+    your css into separate component files - that's the perfect time to try.
+    (Use @import in css to achieve that)
+
+    The other gimmick we introduce here is about using font icons instead of inserting images into our code.
+    The easiest out-of-the-box method is to use Google Material Icons,
+    so read about the implementation before you start:
+    https://material.io/icons/
+
+    And good luck!
+  -->
+    <div class="container">
+      <div class="header__block">
+        <div class="header">
+          <div class="logo">
+            <img class="logo__img" src="img/logo.png" alt="" />
+          </div>
+          <div class="search">
+            <input class="search__input" type="text" placeholder="Search" />
+            <button class="button__search">
+              <img
+                class="search__logo"
+                src="img/search_24dp_5F6368.png"
+                alt="#"
+              />
+            </button>
+          </div>
+          <div class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">Home</li>
+              <li class="nav__item">Profile</li>
+              <li class="nav__item">Connections</li>
+              <li class="nav__item">Interest</li>
+              <li class="nav__item buy__item">Try Premium</li>
+            </ul>
+          </div>
+          <div class="buttons__actions">
+            <ul class="buttons__actions__list">
+              <li class="buttons__actions__item">
+                <img src="img/comment_24dp_5F6368.svg" alt="#" />
+              </li>
+              <li class="buttons__actions__item">
+                <img src="img/notifications_24dp_5F6368.svg" alt="#" />
+              </li>
+              <li class="buttons__actions__item">
+                <img src="img/person_add_24dp_5F6368.svg" alt="#" />
+              </li>
+            </ul>
+          </div>
+          <div class="image__profile">
+            <img class="avatar" src="img/avatar.jpg" alt="#" />
+          </div>
+        </div>
+      </div>
+      <div class="header__part__two">
+        <ul class="header__part__two__button__list">
+          <li class="header__part__two__button__item">
+            <button class="button">Posts</button>
+          </li>
+          <li class="header__part__two__button__item">
+            <button class="button">Background</button>
+          </li>
+          <li class="header__part__two__button__item">
+            <button class="button">Recommendations</button>
+          </li>
+          <li class="header__part__two__button__item">
+            <button class="button">Following</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="main__content__block">
+        <div class="main__content">
+          <div class="side__profile">
+            <div class="side__profile__main__info">
+              <img
+                class="side__profile__avatar"
+                src="img/bill-gates-avatar.png"
+                alt="#"
+              />
+              <h2 class="general side-profile-name">Bill Gates</h2>
+              <p class="general side-profile-company">Microsoft founder</p>
+              <p class="general side-profile-area">Greater Seattle Area</p>
+              <div class="general side-profile-button-block">
+                <button class="general__side__profile__button">
+                  <p class="general">Follow</p>
+                </button>
+                <button
+                  class="general__side__profile__button background-button"
+                >
+                  <p class="general">Connect</p>
+                  <img src="img/expand_more_24dp_5F6368.svg" alt="#" />
+                </button>
+              </div>
+            </div>
+            <div class="stats">
+              <div class="stats__info stats__info-border">
+                <p class="general stats__number">200</p>
+                <p class="general stats__overview">connecti...</p>
+              </div>
+              <div class="stats__info">
+                <p class="general stats__number">1.9M</p>
+                <p class="general stats__overview">followers</p>
+              </div>
+            </div>
+            <div class="side__profile__links">
+              <div>
+                <p class="general links">
+                  <img src="img/link_24dp_5F6368.svg" alt="#" />
+                  linkedin.com/in/billgat...
+                </p>
+                <p class="general links">
+                  <img src="img/language_24dp_5F6368.svg" alt="#" />
+                  billgates.com
+                </p>
+              </div>
+            </div>
+            <div class="side__profile__download__block">
+              <button class="side__profile__download">
+                <img src="img/file_upload_24dp_5F6368.svg" alt="#" />
+                <p class="general">Export page as PDF</p>
+              </button>
+            </div>
+          </div>
+
+          <div class="middle__block">
+            <div class="posts__list">
+              <div class="posts__list__header">
+                <h2 class="posts__list__header__head">posts</h2>
+                <div class="posts__list__header__move">
+                  <button class="buttons__actions">
+                    <img
+                      class="arrow"
+                      src="img/chevron_left_24dp_5F6368.svg"
+                      alt="#"
+                    />
+                  </button>
+                  <button class="buttons__actions">
+                    <img
+                      class="arrow"
+                      src="img/chevron_right_24dp_5F6368.svg"
+                      alt="#"
+                    />
+                  </button>
+                </div>
+              </div>
+
+              <div class="main__content__posts__list">
+                <ul class="items">
+                  <li class="posts__list__item">
+                    <img
+                      class="posts__list__item__image"
+                      src="img/article1.jpg"
+                      alt="#"
+                    />
+                    <div class="posts__list__item__text">
+                      <h3 class="overview">
+                        3 Myths That Confuse Top-Managers
+                      </h3>
+                      <p class="date">February 19, 2016</p>
+                    </div>
+                  </li>
+                  <li class="posts__list__item">
+                    <img
+                      class="posts__list__item__image"
+                      src="img/article2.jpg"
+                      alt="#"
+                    />
+                    <div class="posts__list__item__text">
+                      <h3 class="overview">
+                        How much do we spend on hot drinks
+                      </h3>
+                      <p class="date">February 19, 2016</p>
+                    </div>
+                  </li>
+                  <li class="posts__list__item">
+                    <img
+                      class="posts__list__item__image"
+                      src="img/article3.jpg"
+                      alt="#"
+                    />
+                    <div class="posts__list__item__text">
+                      <h3 class="overview">Good news you might have noticed</h3>
+                      <p class="date">February 19, 2016</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="experience__block">
+              <div class="experience__block__header">
+                <h4 class="experience__block__header__head">background</h4>
+              </div>
+              <div class="experience">
+                <div class="summary__of__the__state">
+                  <div class="icon__header">
+                    <img
+                      class="icon__header__icon"
+                      src="img/assignment_24dp_5F6368.svg"
+                      alt="#"
+                    />
+                    <h3 class="icon__header__header">Summary</h3>
+                  </div>
+                  <p class="experience__block__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Eos incidunt excepturi culpa tenetur obcaecati voluptas
+                    doloribus quae doloremque enim laboriosam aut nisi unde
+                    veritatis, rerum corporis quod dignissimos facilis deleniti?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloremque explicabo eaque vero accusantium nemo maxime hic,
+                    rem quaerat eius velit cupiditate, praesentium consequuntur
+                    nihil quam modi, delectus ipsum vitae. Cumque?
+                  </p>
+                </div>
+                <div class="first__experience">
+                  <div class="icon__header__two__block">
+                    <img
+                      class="icon__header__icon__two"
+                      src="img/work_24dp_E8EAED.svg"
+                      alt="#"
+                    />
+                    <div class="test">
+                      <div class="info__block">
+                        <h3 class="icon__header__two">Experience</h3>
+                      </div>
+                      <div class="company">
+                        <p class="company__text text-mod">2000-present</p>
+                        <p class="company__text">Co-Founder, Chairman</p>
+                        <p class="company__text text-mod__two">Microsoft</p>
+                      </div>
+
+                      <div class="second__company">
+                        <div class="second__block__company__info">
+                          <p class="company__text text-mod">1992-1999</p>
+                          <p class="company__text">Senior Developer</p>
+                          <p class="company__text text-mod__two">Youtube</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="logos">
+                    <div>
+                      <img
+                        class="youtube__logo"
+                        src="img/logo-microsoft.png"
+                        alt="#"
+                      />
+                    </div>
+                    <div class="logo__job__images">
+                      <img
+                        class="microsoft__logo"
+                        src="img/logo-youtube.png"
+                        alt="#"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="side__right__sector">
+            <div class="people__info">
+              <h4 class="people__info__header">people also viewed</h4>
+              <ul class="people__list">
+                <li class="people__item">
+                  <img
+                    class="people__info__avatar"
+                    src="img/avatar.jpg"
+                    alt="#"
+                  />
+                  <div class="people__info__text__block">
+                    <p class="people__info__name">Sergey Brin</p>
+                    <p class="people__info__company">Google</p>
+                  </div>
+                </li>
+                <li class="people__item">
+                  <img
+                    class="people__info__avatar"
+                    src="img/avatar2.jpg"
+                    alt="#"
+                  />
+                  <div class="people__info__text__block">
+                    <p class="people__info__name">Jeffrey Bezos</p>
+                    <p class="people__info__company">Amazon</p>
+                  </div>
+                </li>
+                <li class="people__item">
+                  <img
+                    class="people__info__avatar"
+                    src="img/avatar3.jpg"
+                    alt="#"
+                  />
+                  <div class="people__info__text__block">
+                    <p class="people__info__name">Steve Jobs</p>
+                    <p class="people__info__company">Apple</p>
+                  </div>
+                </li>
+              </ul>
+              <div class="side__right__sector__second__block">
+                <h4 class="people__info__header">more influencers</h4>
+                <div class="second__block__main__info">
+                  <button class="second__block__button">
+                    <img src="img/chevron_left_black.svg" alt="#" />
+                  </button>
+                  <img
+                    class="second__block__avatar"
+                    src="img/avatar3.jpg"
+                    alt="#"
+                  />
+                  <button class="second__block__button">
+                    <img src="img/chevron_right_black.svg" alt="#" />
+                  </button>
+                  <div class="second__block__info">
+                    <h3 class="second__block__name">Steve Jobs</h3>
+                    <p class="second__block__company">Apple</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
