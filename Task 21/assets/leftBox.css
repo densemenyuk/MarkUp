@@ -113,7 +113,9 @@
 
 .plus__image__one:hover {
   cursor: pointer;
-  fill: #662acc;
+  circle {
+    fill: #662acc;
+  }
 }
 .plus__image__two:hover {
   cursor: pointer;
