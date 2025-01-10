@@ -67,6 +67,20 @@
   background: #fff;
 }
 
+/* .point {
+  border: none;
+  outline: none;
+  background: #f0a6c0;
+
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+
+.point:active {
+  color: #fff;
+} */
+
 .plus__image__one {
   width: 30px;
   position: absolute;

@@ -3,4 +3,11 @@
   height: 500px;
   background: #fff;
   border-radius: 0 7px 7px 0;
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+}
+
+.main__content__two {
+  width: 425px;
 }
