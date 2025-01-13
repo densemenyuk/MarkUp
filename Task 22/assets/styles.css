@@ -1,5 +1,6 @@
 @import url(./reset.css);
 @import url(./sidebar.css);
+@import url(./contet__block.css);
 
 .icon-sprite {
   width: 0;
