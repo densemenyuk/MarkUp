@@ -1,5 +1,29 @@
+@import url(./reset.css);
+@import url(./sidebar.css);
+
 .icon-sprite {
   width: 0;
   height: 0;
   display: none;
+}
+
+.icon {
+  fill: #648cf7;
+  width: 35px;
+  height: 35px;
+}
+
+.container {
+  height: 100vh;
+  background: #293146;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__block {
+  width: 800px;
+  height: 600px;
+  background: #fff;
+  border-radius: 5px;
 }
