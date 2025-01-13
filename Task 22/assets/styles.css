@@ -7,16 +7,6 @@
   display: none;
 }
 
-.icon {
-  fill: #dadada;
-  width: 35px;
-  height: 35px;
-}
-
-.icon-logo {
-  fill: #648cf7;
-}
-
 .container {
   height: 100vh;
   background: #293146;

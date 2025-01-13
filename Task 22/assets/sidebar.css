@@ -1,6 +1,6 @@
 .sidebar {
   height: 100%;
-  width: 100px;
+  width: 90px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,9 +11,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 400px;
+  height: 350px;
   width: 100px;
-  justify-content: space-around;
+  gap: 50px;
+  margin-top: 30px;
+
   border-right: 1px solid #dedede;
 }
 
@@ -23,6 +25,31 @@
   border: none;
   padding: 0;
   width: 100px;
+}
+
+.active-button {
+  border-right: 2px solid #648cf7;
+  .icon {
+    fill: #648cf7;
+  }
+}
+
+.icon {
+  fill: #dadada;
+  width: 35px;
+  height: 35px;
+}
+
+.icon-logo {
+  fill: #648cf7;
+}
+
+.action__button__item:hover {
+  cursor: pointer;
+  border-right: 2px solid #648cf7;
+  .icon {
+    fill: #648cf7;
+  }
 }
 
 .action__button__list {
@@ -35,7 +62,7 @@
 }
 
 .avatar__image {
-  width: 50px;
+  width: 40px;
   border: 2px solid #648cf7;
   border-radius: 50%;
   margin-bottom: 30px;
