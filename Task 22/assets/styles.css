@@ -8,9 +8,13 @@
 }
 
 .icon {
-  fill: #648cf7;
+  fill: #dadada;
   width: 35px;
   height: 35px;
+}
+
+.icon-logo {
+  fill: #648cf7;
 }
 
 .container {

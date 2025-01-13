@@ -12,3 +12,9 @@
   border: none;
   padding: 0;
 }
+
+.action__button__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
