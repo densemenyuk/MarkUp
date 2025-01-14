@@ -57,12 +57,13 @@
 }
 
 .images__block {
+  margin-top: 40px;
   width: 100%;
   height: auto;
   display: grid;
-  grid-template-columns: 30% 30% 30%;
-  grid-template-rows: 150px 150px;
-  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 190px 190px;
+  gap: 20px;
 }
 
 .item2 {
