@@ -93,7 +93,7 @@
 }
 
 .size__item__button:focus {
-  border-radius: 40%;
+  border-radius: 35%;
   outline: 2px solid #b25576;
   outline-offset: 5px;
 }
