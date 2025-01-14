@@ -56,6 +56,11 @@
   object-fit: cover;
 }
 
+.image__item:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
 .images__block {
   margin-top: 40px;
   width: 100%;
