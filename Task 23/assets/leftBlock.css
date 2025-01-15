@@ -2,3 +2,18 @@
   width: 300px;
   height: 465px;
 }
+
+.test {
+  display: none;
+}
+
+.cinema__banner__one__block:hover {
+  cursor: pointer;
+  .test {
+    display: flex;
+    width: 400px;
+    height: 650px;
+    background: #fff;
+    border-radius: 5px;
+  }
+}
