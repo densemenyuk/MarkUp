@@ -13,7 +13,7 @@
 }
 
 .main__block {
-  min-width: 700px;
+  min-width: 800px;
   height: 500px;
   display: flex;
   justify-content: space-between;
