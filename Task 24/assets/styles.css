@@ -14,16 +14,37 @@
 .main__block {
   width: 800px;
   height: 700px;
-  background-image: url(./img/kanye.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-radius: 7px;
   position: absolute;
-  display: none;
+  display: flex;
+  border-radius: 7px;
 }
 
-.right__block {
+.image__block {
+  display: flex;
+  width: 800px;
+  height: 700px;
+  position: absolute;
+  display: flex;
+  perspective: 500px;
+  transition: transform 0.5s ease-in-out;
+  transform-origin: left center;
+}
+
+.main__block__image {
+  display: flex;
+  border-radius: 7px;
+  width: 100%;
+  height: 100%;
+}
+
+.main__block:hover {
+  .image__block {
+    cursor: pointer;
+    transform: rotateY(-29deg);
+  }
+}
+
+.side__panel {
   display: flex;
   justify-content: flex-end;
   background: #fff;
