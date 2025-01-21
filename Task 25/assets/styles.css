@@ -106,10 +106,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 100px;
-  border: 10px solid transparent;
-  border-image: linear-gradient(45deg, red 20%, blue 30%, green 60%, yellow 90%)
-    1;
+  width: 120px;
+  height: 120px;
+  border: 12px solid transparent; /* Прозрачная основа */
   border-radius: 50%;
+  background: conic-gradient();
+}
+
+.circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: conic-gradient(
+    #ff9900 0% 25%,
+    /* Оранжевый сегмент */ #8e44ad 25% 50%,
+    /* Фиолетовый сегмент */ #2ecc71 50% 75%,
+    /* Зелёный сегмент */ #3498db 75% 100% /* Синий сегмент */
+  );
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats__circle {
+  width: 140px;
+  height: 140px;
+  background: #47549c; /* Совпадает с фоном страницы */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
 }
