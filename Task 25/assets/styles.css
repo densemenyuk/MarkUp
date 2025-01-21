@@ -15,8 +15,64 @@
   height: 500px;
   background-color: #424d84;
   border-radius: 7px;
+  overflow: hidden;
 }
 
 .months__list {
-  height: 40%;
+  height: 42%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #a9afc8;
+  font-weight: 500;
+  width: 102%;
+  margin-left: -7px;
+}
+
+.month__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.month__item::before {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 160px solid #aaafc8;
+  border-radius: 5px 5px 5px 5px;
+  content: "";
+  height: 10px;
+  width: 25px;
+}
+
+.long-one::before {
+  border-top: 140px solid #aaafc8;
+}
+.long-three::before {
+  border-top: 100px solid #aaafc8;
+}
+.long-four::before {
+  border-top: 75px solid #aaafc8;
+}
+.long-five::before {
+  border-top: 85px solid #aaafc8;
+}
+.long-seven::before {
+  border-top: 50px solid #aaafc8;
+}
+
+.long-nine::before {
+  border-top: 110px solid #aaafc8;
+}
+.long-ten::before {
+  border-top: 125px solid #aaafc8;
+}
+
+.active {
+  color: #fff;
+}
+
+.active::before {
+  border-top: 130px solid #3398dc;
 }
