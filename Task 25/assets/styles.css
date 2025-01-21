@@ -84,6 +84,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  width: 80%;
 }
 
 .stats__circle {
@@ -118,10 +119,10 @@
   width: 200px;
   height: 200px;
   background: conic-gradient(
-    #ff9900 0% 25%,
-    /* Оранжевый сегмент */ #8e44ad 25% 50%,
-    /* Фиолетовый сегмент */ #2ecc71 50% 75%,
-    /* Зелёный сегмент */ #3498db 75% 100% /* Синий сегмент */
+    #2ecc71 25% 25%,
+    /* Оранжевый сегмент */ #3498db 25% 60%,
+    /* Фиолетовый сегмент */ #ff9900 25% 85%,
+    /* Зелёный сегмент */ #8e44ad 25% 50% /* Синий сегмент */
   );
   border-radius: 50%;
   display: flex;
@@ -139,4 +140,38 @@
   align-items: center;
   position: relative;
   z-index: 1;
+}
+
+.stats__text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.gray__text {
+  color: #c7c9db;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.white__text {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.stats__text__one {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stats__text__two {
+  display: flex;
+  gap: 15px;
+}
+
+.stats__text__three {
+  display: flex;
+  gap: 15px;
 }
