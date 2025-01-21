@@ -76,3 +76,40 @@
 .active::before {
   border-top: 130px solid #3398dc;
 }
+
+/* Нижний блок */
+
+.stats {
+  height: 58%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.stats__circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+
+.stats__circle__text {
+  color: #fff;
+  font-weight: 500;
+}
+
+.stats__circle {
+  /* #2bcd71
+    #3398dc
+    #f39c13
+    #9b58b6 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 10px solid transparent;
+  border-image: linear-gradient(45deg, red 20%, blue 30%, green 60%, yellow 90%)
+    1;
+  border-radius: 50%;
+}
