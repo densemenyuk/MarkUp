@@ -22,3 +22,14 @@
 .headnote__first__text {
   color: #969696;
 }
+
+.Payment__information {
+  width: 65%;
+  background: #fff;
+  margin-top: 20px;
+}
+
+.Payment__information__header {
+  font-size: 32px;
+  font-weight: 700;
+}
