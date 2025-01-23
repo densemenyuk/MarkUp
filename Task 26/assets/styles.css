@@ -24,12 +24,95 @@
 }
 
 .Payment__information {
-  width: 65%;
+  width: 60%;
   background: #fff;
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px 0 25px 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.21);
 }
 
 .Payment__information__header {
   font-size: 32px;
   font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.card__text {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #aaaaaa;
+  font-size: 12px;
+}
+
+.card__input {
+  border: 2px solid #dedede;
+  border-radius: 3px;
+  width: 90%;
+  height: 30px;
+}
+
+.card__holder__input__block {
+  width: 100%;
+  display: flex;
+}
+
+.card__number__input__block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card__date__input__block {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card__cvc__input__block {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card__name__input__block {
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input__name {
+  border: 2px solid #dedede;
+  border-radius: 3px;
+  height: 30px;
+  font-weight: 600;
+  color: #aaaaaa;
+  font-size: 14px;
+  width: 90%;
+}
+
+.input__date {
+  border: 2px solid #dedede;
+  border-radius: 3px;
+  height: 30px;
+  font-weight: 600;
+  color: #aaaaaa;
+  font-size: 14px;
+  width: 60%;
+}
+
+.input__cvc {
+  border: 2px solid #dedede;
+  border-radius: 3px;
+  height: 30px;
+  font-weight: 600;
+  color: #aaaaaa;
+  font-size: 14px;
+  width: 60%;
 }
