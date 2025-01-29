@@ -48,13 +48,6 @@
   font-size: 12px;
 }
 
-.card__input {
-  border: 2px solid #dedede;
-  border-radius: 3px;
-  width: 90%;
-  height: 30px;
-}
-
 .card__holder__input__block {
   width: 100%;
   display: flex;
@@ -87,6 +80,14 @@
   gap: 10px;
 }
 
+.card__input {
+  border: 2px solid #dedede;
+  border-radius: 3px;
+  width: 90%;
+  height: 30px;
+  padding-left: 10px;
+}
+
 .input__name {
   border: 2px solid #dedede;
   border-radius: 3px;
@@ -95,6 +96,7 @@
   color: #aaaaaa;
   font-size: 14px;
   width: 90%;
+  padding-left: 10px;
 }
 
 .input__date {
@@ -105,6 +107,7 @@
   color: #aaaaaa;
   font-size: 14px;
   width: 60%;
+  padding-left: 10px;
 }
 
 .input__cvc {
@@ -115,4 +118,25 @@
   color: #aaaaaa;
   font-size: 14px;
   width: 60%;
+  padding-left: 10px;
+}
+
+.card__input:focus {
+  border-color: #949494;
+  outline: none;
+}
+
+.input__name:focus {
+  border-color: #949494;
+  outline: none;
+}
+
+.input__date:focus {
+  border-color: #949494;
+  outline: none;
+}
+
+.input__cvc:focus {
+  border-color: #949494;
+  outline: none;
 }
