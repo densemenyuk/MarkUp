@@ -140,3 +140,38 @@
   border-color: #949494;
   outline: none;
 }
+
+/* Второй блок */
+
+.billing__adress {
+  width: 60%;
+  background: #fff;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px 0 25px 30px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.21);
+}
+
+.billing__adress__header {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.radio__block {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  gap: 40px;
+}
+
+.type__one {
+  border-bottom: 1px solid #949494;
+  height: 50px;
+}
+
+.type__two {
+}
