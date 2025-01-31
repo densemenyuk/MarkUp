@@ -161,17 +161,36 @@
   margin-bottom: 30px;
 }
 
+.main__block__billing__adress {
+  width: 100%;
+}
+
 .radio__block {
   display: flex;
   flex-direction: column;
   font-weight: 500;
   gap: 40px;
+  width: 100%;
 }
 
 .type__one {
-  border-bottom: 1px solid #949494;
+  border-bottom: 2px solid #dedede;
+  outline: none;
   height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .type__two {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.check {
+  transform: scale(1.7); /* Увеличивает размер */
+  cursor: pointer;
+  border-color: #dedede;
+  outline: none;
 }
