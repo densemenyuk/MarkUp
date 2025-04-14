@@ -1,0 +1,143 @@
+.side__profile {
+  width: 220px;
+  height: 600px;
+  background: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.side__profile__avatar {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.general {
+  margin: 0;
+  padding: 0;
+}
+
+.side__profile__main__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.side-profile-name {
+  font-weight: 500;
+  color: #414545;
+  font-size: 22px;
+}
+.side-profile-company {
+  color: #3b454d;
+  font-size: 15px;
+}
+
+.side-profile-area {
+  color: #aaaaad;
+  font-size: 15px;
+}
+
+.general__side__profile__button {
+  background: #5eb5e6;
+  outline: none;
+  border: 1px solid #5eb5e6;
+  border-radius: 25px;
+  width: 180px;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.general__side__profile__button:hover {
+  cursor: pointer;
+}
+
+.background-button {
+  background: #fff;
+  color: #5eb5e6;
+}
+
+.side-profile-button-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  width: 100%;
+  height: 75px;
+}
+
+.stats__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .stats__info-border {
+  border-right: 1px solid #f1f1f1;
+} */
+
+.stats__number {
+  font-weight: 500;
+}
+
+.stats__overview {
+  color: #abafb4;
+}
+
+.side__profile__links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links {
+  font-size: 15px;
+  color: #abafb4;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.side__profile__download__block {
+  width: 100%;
+  border-top: 1px solid #f1f1f1;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.side__profile__download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #abafb4;
+  font-size: 14px;
+  width: 187.73px;
+  gap: 5px;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.side__profile__download:hover {
+  cursor: pointer;
+}

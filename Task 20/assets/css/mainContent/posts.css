@@ -1,0 +1,201 @@
+.posts__list {
+  background-color: #fff;
+  height: 380px;
+  width: auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* width: 60%; */
+}
+
+.posts__list__header {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding: 0px 0px 0 30px;
+  width: 93%;
+  justify-content: space-between;
+}
+
+.posts__list__header__head {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: #333333;
+  font-size: 18px;
+}
+
+.posts__list__header__move {
+  display: flex;
+  align-items: center;
+  /* gap: 7px; */
+}
+
+.arrow {
+  border: 1px solid #0501ef;
+  border-radius: 50%;
+  width: 30px;
+}
+
+.buttons__actions {
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.buttons__actions:hover {
+  cursor: pointer;
+}
+
+/* Сами посты */
+
+.main__content__posts__list {
+  border-top: 2px solid #f1f1f1;
+}
+
+.posts__list__item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.posts__list__item__text {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  text-align: left;
+  margin-top: 7px;
+}
+
+.posts__list__item__image {
+  width: 200px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 18px 0 0 0;
+}
+
+.overview {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.date {
+  margin: 3px 0 0 0;
+  padding: 0;
+  color: #acb2bc;
+}
+
+/* Правый сектор */
+
+.side__right__sector {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.people__info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.people__info__header {
+  text-transform: uppercase;
+  color: #727373;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.people__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.people__item {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Второй блок */
+
+.side__right__sector__second__block {
+  display: flex;
+  flex-direction: column;
+}
+
+.people__info__avatar {
+  width: 45px;
+  border-radius: 50%;
+}
+
+.people__info__text__block {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.people__info__name {
+  margin: 0;
+  color: #333333;
+  font-weight: 500;
+}
+
+.people__info__company {
+  margin: 0;
+  color: #adadb5;
+  font-size: 14px;
+}
+
+.second__block__avatar {
+  width: 115px;
+  border-radius: 50%;
+}
+
+.second__block__button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.second__block__button:hover {
+  cursor: pointer;
+}
+
+.second__block__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.second__block__main__info {
+  margin-top: 30px;
+  margin-left: -25px;
+  gap: 5px;
+}
+
+.second__block__name {
+  margin: 0;
+  color: #333333;
+}
+
+.second__block__company {
+  margin: 0;
+  color: #aaabb5;
+  font-size: 14px;
+}

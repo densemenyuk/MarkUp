@@ -1,0 +1,177 @@
+@import url(reset.css);
+
+.container {
+  height: 100vh;
+  background: #fafafa;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__block {
+  width: 600px;
+  height: 500px;
+  background-color: #424d84;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.months__list {
+  height: 42%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #a9afc8;
+  font-weight: 500;
+  width: 102%;
+  margin-left: -7px;
+}
+
+.month__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.month__item::before {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 160px solid #aaafc8;
+  border-radius: 5px 5px 5px 5px;
+  content: "";
+  height: 10px;
+  width: 25px;
+}
+
+.long-one::before {
+  border-top: 140px solid #aaafc8;
+}
+.long-three::before {
+  border-top: 100px solid #aaafc8;
+}
+.long-four::before {
+  border-top: 75px solid #aaafc8;
+}
+.long-five::before {
+  border-top: 85px solid #aaafc8;
+}
+.long-seven::before {
+  border-top: 50px solid #aaafc8;
+}
+
+.long-nine::before {
+  border-top: 110px solid #aaafc8;
+}
+.long-ten::before {
+  border-top: 125px solid #aaafc8;
+}
+
+.active {
+  color: #fff;
+}
+
+.active::before {
+  border-top: 130px solid #3398dc;
+}
+
+/* Нижний блок */
+
+.stats {
+  height: 58%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.stats__circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+
+.stats__circle__text {
+  color: #fff;
+  font-weight: 500;
+}
+
+.stats__circle {
+  /* #2bcd71
+    #3398dc
+    #f39c13
+    #9b58b6 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border: 12px solid transparent; /* Прозрачная основа */
+  border-radius: 50%;
+  background: conic-gradient();
+}
+
+.circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: conic-gradient(
+    #2ecc71 25% 25%,
+    /* Оранжевый сегмент */ #3498db 25% 60%,
+    /* Фиолетовый сегмент */ #ff9900 25% 85%,
+    /* Зелёный сегмент */ #8e44ad 25% 50% /* Синий сегмент */
+  );
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats__circle {
+  width: 140px;
+  height: 140px;
+  background: #47549c; /* Совпадает с фоном страницы */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.stats__text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.gray__text {
+  color: #c7c9db;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.white__text {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.stats__text__one {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stats__text__two {
+  display: flex;
+  gap: 15px;
+}
+
+.stats__text__three {
+  display: flex;
+  gap: 15px;
+}

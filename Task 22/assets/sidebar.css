@@ -1,0 +1,66 @@
+.sidebar {
+  height: 100%;
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350px;
+  width: 90px;
+  gap: 50px;
+  margin-top: 30px;
+
+  border-right: 1px solid #dedede;
+}
+
+.action__button__item {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  width: 90px;
+}
+
+.active-button {
+  border-right: 2px solid #648cf7;
+  .icon {
+    fill: #648cf7;
+  }
+}
+
+.icon {
+  fill: #dadada;
+  width: 35px;
+  height: 35px;
+}
+
+.icon-logo {
+  fill: #648cf7;
+}
+
+.action__button__item:hover {
+  cursor: pointer;
+  border-right: 2px solid #648cf7;
+  .icon {
+    fill: #648cf7;
+  }
+}
+
+.action__button__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.avatar__image {
+  width: 40px;
+  border: 2px solid #648cf7;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
